@@ -1,6 +1,6 @@
 All-about-CSS
 
-## Media Queries
+# Media Queries
 
 Allow us to create CSS rules based on various parameters (viewport size, device type etc.)
 
