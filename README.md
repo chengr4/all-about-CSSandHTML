@@ -7,16 +7,16 @@
 `static`: The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties **have no effect**. This is the **default** value.
 
 `relative`: The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements (因為不會影響其他 elements 所以會 overlapping).
-> 所以 relative = static + 能控制他的上下左右
-> 因為會脫離 document flow 所以其實不建議使用上下左右
-> 通常 relative 用於為 element 的 child 提供基準定位 
+> + 所以 relative = static + 能控制他的上下左右
+> + 因為會脫離 document flow 所以其實不建議使用上下左右
+> + 通常 relative 用於為 element 的 child 提供基準定位
 
 `absolute`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. **Its final position is determined by the values of top, right, bottom, and left.**
-> 所以 absolute 常跟上下左右配合使用
-> 當 ancestor 的 position 是 static == 沒有 position 給 child 的 absolute 定位
+> + 所以 absolute 常跟上下左右配合使用       
+> + 當 ancestor 的 position 是 static == 沒有 position 給 child 的 absolute 定位
 
 `fixed`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the **viewport**, except when one of its ancestors has a `transform`, `perspective`, or `filter` property set to something other than `none`. **Its final position is determined by the values of top, right, bottom, and left.**
-> 所以當螢幕 scroll up/down ， element 會跟著螢幕走
+> + 所以當螢幕 scroll up/down ， element 會跟著螢幕走
 
 `sticky`: `relative` + `fixed`
 
