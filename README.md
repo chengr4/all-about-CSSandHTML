@@ -80,5 +80,5 @@ Syntax:
 3. [Web Dev Simplified; Learn CSS Pseudo Elements In 8 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
 4. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 5. https://developer.mozilla.org/en-US/docs/Web/CSS/display
-6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
+6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
