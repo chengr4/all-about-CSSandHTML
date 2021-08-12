@@ -28,7 +28,7 @@ These keywords specify the element's outer display type, which is essentially it
 
 `block`: It is going to take up the entire width given to it (佔據整行)
 
-`inline`: take up the minimum amount of space possible
+`inline` (initial value): take up the minimum amount of space possible
 
 ### `<display-box>` values
 
@@ -39,6 +39,23 @@ These keywords specify the element's outer display type, which is essentially it
 CSS 2 used a single-keyword syntax for the display property, requiring separate keywords for block-level and inline-level variants of the same layout mode.
 
 `inline-block`: 可以加長、高的 `inline`。It is equivalent to `inline flow-root`
+
+### Global values
+
+```css
+/* Global values */
+display: inherit;
+display: initial;
+display: unset;
+```
+
+`inherit`: The `inherit` keyword represents the computed value of the property on the element’s parent.
+
+`initial`: The `initial` keyword represents the value specified as the property’s initial value. So basically, `display: initial; == display: inline;`
+
+>  IE does not support `display: initial;`
+
+`unset`: The `unset` keyword acts as either `inherit` or `initial`, depending on whether the property is inherited or not.
 
 ## Pseudo Elements
 
@@ -82,3 +99,5 @@ Syntax:
 5. https://developer.mozilla.org/en-US/docs/Web/CSS/display
 6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
+8. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
+9. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
