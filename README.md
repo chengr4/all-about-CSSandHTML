@@ -77,6 +77,8 @@ q::after {
   content: "»";
   color: red;
 }
+
+/* Result see [4] */
 ```
 
 ## Media Queries
