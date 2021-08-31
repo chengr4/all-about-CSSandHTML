@@ -92,6 +92,16 @@ Syntax:
 @media screen and (max-width: 800px) {}
 ```
 
+## Overflow-y [10]
+
+### Values
+
+`visible`: Content is not clipped and may be rendered outside the padding box's top and bottom edges.
+
+`auto`: Depends on the user agent. If content fits inside the padding box, it looks the same as `visible`, but still establishes a new block-formatting context. Desktop browsers provide scrollbars if content overflows.
+
+References: 10
+
 ## References
 
 1. [Academind; Bootstrap 4 Theme Customization (with Sass) | BOOTSTRAP 4 TUTORIAL (2018.3)](https://youtu.be/6Ovw43Dkp44)
@@ -103,3 +113,4 @@ Syntax:
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
 8. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
 9. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
+10. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
