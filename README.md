@@ -2,6 +2,8 @@
 
 ## Position
 
+References: [7], [8]
+
 ### Values
 
 `static`: The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties **have no effect**. This is the **default** value.
@@ -11,12 +13,14 @@
 > + 因為會脫離 document flow 所以其實不建議使用上下左右
 > + 通常 relative 用於為 element 的 child 提供基準定位
 
-`absolute`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its closest positioned ancestor, if any; otherwise, it is placed relative to the initial containing block. **Its final position is determined by the values of top, right, bottom, and left.**
-> + 所以 absolute 常跟上下左右配合使用       
+`absolute`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its **closest positioned ancestor**, if any; otherwise, it is placed relative to the initial containing block. **Its final position is determined by the values of top, right, bottom, and left.**
+> + 所以 absolute 常跟上下左右配合使用
+> + 想將 element 固定在特定位置時非常實用
 > + 當 ancestor 的 position 是 static == 沒有 position 給 child 的 absolute 定位
 
 `fixed`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to the initial containing block established by the **viewport**, except when one of its ancestors has a `transform`, `perspective`, or `filter` property set to something other than `none`. **Its final position is determined by the values of top, right, bottom, and left.**
-> + 所以當螢幕 scroll up/down ， element 會跟著螢幕走
+> + 當螢幕 scroll up/down ， element 會跟著螢幕走
+> + 所以常用於在固定螢幕的特定位置
 
 `sticky`: `relative` + `fixed`
 
@@ -92,7 +96,9 @@ Syntax:
 @media screen and (max-width: 800px) {}
 ```
 
-## Overflow-y [10]
+## Overflow-y
+
+References: [10]
 
 ### Values
 
@@ -109,6 +115,7 @@ Syntax:
 5. https://developer.mozilla.org/en-US/docs/Web/CSS/display
 6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
-8. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
-9. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
-10. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
+8. https://developer.mozilla.org/en-US/docs/Web/CSS/position
+9. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
+10. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
+11. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
