@@ -1,4 +1,7 @@
 # All About CSS
+# CSS
+
+## Contents
 
 + [Position](#position)
 + [Display](#display)
@@ -7,8 +10,6 @@
 + [Overflow-y](#overflow-y)
 + [CSS Units](#css-units)
 + [References](#references)
-
-# CSS
 
 ## Position
 
