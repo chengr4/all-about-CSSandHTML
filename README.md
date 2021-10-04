@@ -5,7 +5,8 @@
 + [Pseudo Elements](#pseudo-elements)
 + [Media Queries](#media-queries)
 + [Overflow-y](#overflow-y)
-+ +[References](#references)
++ [CSS Units](#css-units)
++ [References](#references)
 
 # CSS
 
@@ -115,6 +116,15 @@ References: [10]
 
 `auto`: Depends on the user agent. If content fits inside the padding box, it looks the same as `visible`, but still establishes a new block-formatting context. Desktop browsers provide scrollbars if content overflows.
 
+## CSS Units
+
+References: [12]
+
++ Pixel unit (px): (absolute)
++ percentage unit (%): (relative) based off of its parent size
++ rem: (relative) relative to "root" front size
++ em: (relative) relative to "parent" front size
+
 ## References
 
 1. [Academind; Bootstrap 4 Theme Customization (with Sass) | BOOTSTRAP 4 TUTORIAL (2018.3)](https://youtu.be/6Ovw43Dkp44)
@@ -128,3 +138,4 @@ References: [10]
 9. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
 10. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
 11. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
+12. [Web Dev Simplified; Learn CSS Units In 8 Minutes (2019.10)](https://youtu.be/-GR52czEd-0)
