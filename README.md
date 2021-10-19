@@ -47,6 +47,10 @@ These keywords specify the element's outer display type, which is essentially it
 
 `inline` (initial value): take up the minimum amount of space possible
 
+### `<display-inside>` values
+
+`flex`:
+
 ### `<display-box>` values
 
 `none`: Turns off the display of an element so that it has no effect on layout (the document is rendered as though the element did not exist). All descendant elements also have their display turned off. To have an element take up the space that it would normally take, but without actually rendering anything, use the visibility property instead.
