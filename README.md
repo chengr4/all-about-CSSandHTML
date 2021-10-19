@@ -37,6 +37,8 @@ References: [7], [8]
 
 ## Display
 
+https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
 ### `<display-outside>` values
 
 These keywords specify the element's outer display type, which is essentially its role in flow layout
@@ -132,8 +134,7 @@ References: [12]
 2. [The Net Ninja; Responsive Web Design Tutorial #5 - Media Queries (2015.12)](https://youtu.be/5xzaGSYd7jM)
 3. [Web Dev Simplified; Learn CSS Pseudo Elements In 8 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
 4. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
-5. https://developer.mozilla.org/en-US/docs/Web/CSS/display
-6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
+5. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
 8. https://developer.mozilla.org/en-US/docs/Web/CSS/position
 9. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
