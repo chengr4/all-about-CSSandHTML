@@ -9,6 +9,7 @@
 + [Media Queries](#media-queries)
 + [Overflow-y](#overflow-y)
 + [CSS Units](#css-units)
++ [Pseudo-classes](#pseudo-classes)
 + [References](#references)
 
 ## Position
@@ -132,13 +133,35 @@ References: [12]
 + rem: (relative) relative to "root" front size
 + em: (relative) relative to "parent" front size
 
+## Pseudo-classes
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+### :root
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/:root
+
+`:root` == selector `html`
+
+`:root` can be useful for declaring global CSS variables
+
+```css
+/* Selects the root element of the document:
+   <html> in the case of HTML */
+:root {
+  background: yellow;
+}
+```
+
+
 ## References
 
-1. [Academind; Bootstrap 4 Theme Customization (with Sass) | BOOTSTRAP 4 TUTORIAL (2018.3)](https://youtu.be/6Ovw43Dkp44)
-2. [The Net Ninja; Responsive Web Design Tutorial #5 - Media Queries (2015.12)](https://youtu.be/5xzaGSYd7jM)
-3. [Web Dev Simplified; Learn CSS Pseudo Elements In 8 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
-4. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
-5. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
+1. [CSS-Tricks](https://css-tricks.com/guides/)
+2. [Academind; Bootstrap 4 Theme Customization (with Sass) | BOOTSTRAP 4 TUTORIAL (2018.3)](https://youtu.be/6Ovw43Dkp44)
+3. [The Net Ninja; Responsive Web Design Tutorial #5 - Media Queries (2015.12)](https://youtu.be/5xzaGSYd7jM)
+4. [Web Dev Simplified; Learn CSS Pseudo Elements In 8 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
+6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
 7. [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
 8. https://developer.mozilla.org/en-US/docs/Web/CSS/position
 9. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
