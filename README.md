@@ -12,7 +12,9 @@
 + [Pseudo-classes](#pseudo-classes)
 + [References](#references)
 
-## Position [^7] [^8]
+## Position 
+
+[^7] [^8]
 
 ### Values
 
