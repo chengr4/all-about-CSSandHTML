@@ -116,7 +116,7 @@ Syntax:
 
 ## Overflow-y
 
-References: [10]
+[^6]
 
 ### Values
 
@@ -162,9 +162,10 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
 4. [Web Dev Simplified; Learn CSS Pseudo Elements In 8 Minutes (2019.12)](https://youtu.be/OtBpgtqrjyo)
 5. https://developer.mozilla.org/en-US/docs/Web/CSS/::before
 6. [Web Dev Simplified; Learn CSS Display Property In 4 Minutes (2019.12)](https://youtu.be/Qf-wVa9y9V4)
+7. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
+8. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
+10. [Web Dev Simplified; Learn CSS Units In 8 Minutes (2019.10)](https://youtu.be/-GR52czEd-0)
+
+[^6]: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
 [^7]: [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
 [^8]: https://developer.mozilla.org/en-US/docs/Web/CSS/position
-9. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
-10. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
-11. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
-12. [Web Dev Simplified; Learn CSS Units In 8 Minutes (2019.10)](https://youtu.be/-GR52czEd-0)
