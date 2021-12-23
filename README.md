@@ -105,6 +105,12 @@ align-content: center;
 `flex-shrink`: 有關 item 內的縮排
 `flex-grow`:
 `flex-basis`: Tell flexbox where to start growing from
+`order`: 決定順序 (not recommand)
+
+```css
+flex: 1 0 0; /* grow shrink basis */
+```
+
 
 #### flex-wrap
 
