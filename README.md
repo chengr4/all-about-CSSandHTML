@@ -10,7 +10,6 @@
 + [Overflow-y](#overflow-y)
 + [CSS Units](#css-units)
 + [Pseudo-classes](#pseudo-classes)
-+ [Grid](#grid)
 + [References](#references)
 
 ## Position 
@@ -81,6 +80,45 @@ display: unset;
 >  IE does not support `display: initial;`
 
 `unset`: The `unset` keyword acts as either `inherit` or `initial`, depending on whether the property is inherited or not.
+
+### Grid
+
+[^grid-1]
+
+> Two Dimensions
+
+```css
+.grid-container {
+  display: grid; /* first delcare */
+  grid-template-columns: 2fr 1fr;
+  grid-template-columns: repeat(4, 100px);
+  gird-auto-rows: minmax(150px, auto);
+  grid-template-rows: 200px, 150px;
+  grid-row-gap: 20px;
+}
+```
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar content"
+    "sidebar content"
+}
+
+.grid-item-1 {
+  grid-area: header;
+}
+
+.grid-item-2 {
+  grid-area: sidebar;
+}
+
+.grid-item-3 {
+  grid-area: content;
+}
+```
 
 ## Pseudo Elements
 
@@ -153,45 +191,6 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
    <html> in the case of HTML */
 :root {
   background: yellow;
-}
-```
-
-## Grid
-
-[^grid-1]
-
-> Two Dimensions
-
-```css
-.grid-container {
-  display: grid; /* first delcare */
-  grid-template-columns: 2fr 1fr;
-  grid-template-columns: repeat(4, 100px);
-  gird-auto-rows: minmax(150px, auto);
-  grid-template-rows: 200px, 150px;
-  grid-row-gap: 20px;
-}
-```
-
-```css
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "header header"
-    "sidebar content"
-    "sidebar content"
-}
-
-.grid-item-1 {
-  grid-area: header;
-}
-
-.grid-item-2 {
-  grid-area: sidebar;
-}
-
-.grid-item-3 {
-  grid-area: content;
 }
 ```
 
