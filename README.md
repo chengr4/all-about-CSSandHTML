@@ -38,7 +38,7 @@
 
 ## Display
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/display
+[^display-1]
 
 ### `<display-outside>` values
 
@@ -50,7 +50,7 @@ These keywords specify the element's outer display type, which is essentially it
 
 ### `<display-inside>` values
 
-`flex`:
+`flex`: See [Flex](#flex)
 
 `grid`: See [Grid](#grid)
 
@@ -80,6 +80,38 @@ display: unset;
 >  IE does not support `display: initial;`
 
 `unset`: The `unset` keyword acts as either `inherit` or `initial`, depending on whether the property is inherited or not.
+
+### Flex
+
+> We got Main Axis and Cross Axis and Main Axis will always go the same direction as the layout
+
+**For Container:**
+
+```css
+/* style main axis: justify */
+justify-content: center;
+
+/* style cross axis: align */
+align-items: center;
+
+/* align-content is only for using on multi-line flexline containers */
+align-content: center;
+```
+
+> `justify-content` and `align-items` are used the most
+
+**For Each Item:**
+
+`flex-shrink`: 有關 item 內的縮排
+`flex-grow`:
+`flex-basis`: Tell flexbox where to start growing from
+
+#### flex-wrap
+
+```css
+flex-wrap: nowrap; /* Default value */
+flex-wrap: wrap /* The flex items break into multiple lines */
+```
 
 ### Grid
 
@@ -205,8 +237,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
 7. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
 8. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
 10. [Web Dev Simplified; Learn CSS Units In 8 Minutes (2019.10)](https://youtu.be/-GR52czEd-0)
+11. [Web Dev Simplified; Learn Flexbox in 15 Minutes
+ (2018.9)](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=0s)
 
 [^6]: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
 [^7]: [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
 [^8]: https://developer.mozilla.org/en-US/docs/Web/CSS/position
+[^display-1]: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 [^grid-1]: [Web Dev Simplufied; Learn CSS Grid in 20 Minutes (2018.10)](https://youtu.be/9zBsdzdE4sM)
