@@ -20,6 +20,6 @@ export const Container = styled.div`
 
 ## When to use?
 
-1. Want to encapsulate components and have everything in one place
+Want to encapsulate components and have everything in one place
 
 [^tutor]: [Travery Media; Styled Components Crash Course & Project (2021.09)](https://youtu.be/02zO0hZmwnw)
