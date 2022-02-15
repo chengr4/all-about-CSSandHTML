@@ -9,6 +9,18 @@ export const Nav = styled.nav`
   justify-content: space-between;
   align-items: center;
   margin-buttom: 40px;
+
+  @media(max-width: ${({ theme }) => theme.mobile}) {
+    flex-direction: column;
+    margin-buttom: 40px;
+    
+  }
 `
 
 export const Logo = styled.img``
+
+export const Image = styled.img`
+  width: 375px;
+  margin-left: 40px;
+`
+
