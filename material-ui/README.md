@@ -22,8 +22,16 @@
 <TextField 
 varient="outlined" // 邊匡
 onChange={}
+error
+helperText
 />
 ```
+
+Props:
+
+| Name | Description |
+| ---- | ----------- |
+| error | If true, the label will be displayed in an error state |
 
 ### References
 
