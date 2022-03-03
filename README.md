@@ -11,6 +11,8 @@
 + [CSS Units](#css-units)
 + [Pseudo-classes](#pseudo-classes)
 + [References](#references)
++ [Transform](#transform)
++ [Transition](#transition)
 
 ## Position 
 
@@ -232,6 +234,68 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
 }
 ```
 
+## Transform
+
+[^transform-1]
+
+> For each tag or class, we can only have one `transform`
+
+`rotate`:
+
+```css
+<!-- rotate 74 degree -->
+transform: rotate(74deg)
+<!-- rotateX: 由上轉進視窗  -->
+transform: rotateX(.13turn)
+<!-- rotateY: 由左轉進視窗  -->
+transform: rotateY(.13turn)
+```
+
+> `rotate(90eg) == retate(.25turn)`   
+> `rotate() == rotateZ()`   
+
+---
+
+`scale`:
+
+```css
+<!-- 1.5 times bigger (x + y)  -->
+transform: scale(1.5);
+<!-- 1.5 times bigger (x + y)  -->
+transform: scale(1.5, .5);
+```
+
+---
+
+`translate`: Move the object left, right, up, down, back, forth
+
+```css
+<!-- translate == translateX: move right 20px -->
+transform: translate(20px);
+transform: translate(20%);
+```
+
+---
+
+`skew`: (not useful) 斜向變形
+
+### Useful CSS
+
+Centralize element
+
+```css
+div::after {
+  content: 'After';
+  background: 'red';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+```
+
+## Transition
+
 ## References
 
 1. [CSS-Tricks](https://css-tricks.com/guides/)
@@ -251,3 +315,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/:root
 [^8]: https://developer.mozilla.org/en-US/docs/Web/CSS/position
 [^display-1]: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 [^grid-1]: [Web Dev Simplufied; Learn CSS Grid in 20 Minutes (2018.10)](https://youtu.be/9zBsdzdE4sM)
+[^transform-1]: [Web Dev Simplufied; Learn CSS Transform In 15 Minutes (2021.6)](https://youtu.be/rzD-cPhq02E)
