@@ -29,6 +29,7 @@
 
 `absolute`: The element is **removed from** the normal document flow, and no space is created for the element in the page layout. It is positioned relative to its **closest positioned ancestor**, if any; otherwise, it is placed relative to the initial containing block. **Its final position is determined by the values of top, right, bottom, and left.**
 > + 所以 absolute 常跟上下左右配合使用
+> + usually make it ancestor to `relative`
 > + 想將 element 固定在特定位置時非常實用
 > + 當 ancestor 的 position 是 static == 沒有 position 給 child 的 absolute 定位
 
