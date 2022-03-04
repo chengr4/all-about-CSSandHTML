@@ -20,7 +20,7 @@
 
 ### Values
 
-`static`: The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties **have no effect**. This is the **default** value.
+`static` (default): The element is positioned according to the normal flow of the document. The top, right, bottom, left, and z-index properties **have no effect**. This is the **default** value.
 
 `relative`: The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left. The offset does not affect the position of any other elements (因為不會影響其他 elements 所以會 overlapping).
 > + 所以 relative = static + 能控制他的上下左右
