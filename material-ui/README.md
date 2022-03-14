@@ -4,6 +4,7 @@
 - [Grid](#grid)
 - [TextField](#textfield)
 - [Autocomplete](#autocomplete)
+- [Tooltip](#tooltip)
 
 ## Better Design
 
@@ -52,5 +53,7 @@ Props:
 | includeInputInList | If true, the highlight can move to the input (其他的只能在 options 遊走) |
 | openOnFocus | If true, the popup will open on input focus (I ignore this one) |
 
+## Tooltip
 
+![Tooltip Example](./images/tooltip-1)
 
