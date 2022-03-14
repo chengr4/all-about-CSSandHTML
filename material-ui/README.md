@@ -55,5 +55,5 @@ Props:
 
 ## Tooltip
 
-![Tooltip Example](./images/tooltip-1)
+![Tooltip Example](./images/tooltip-1.png)
 
