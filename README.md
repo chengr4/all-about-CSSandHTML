@@ -217,7 +217,7 @@ References: [12]
 
 ## Pseudo-classes
 
-https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+[^pc-1]
 
 ### :root
 
@@ -308,8 +308,9 @@ div::after {
 7. [CSS-wide keywords: initial, inherit and unset](https://www.w3.org/TR/css3-values/#common-keywords)
 8. [What is use of 'initial' value in CSS?](https://stackoverflow.com/questions/18534561/what-is-use-of-initial-value-in-css)
 10. [Web Dev Simplified; Learn CSS Units In 8 Minutes (2019.10)](https://youtu.be/-GR52czEd-0)
-11. [Web Dev Simplified; Learn Flexbox in 15 Minutes
- (2018.9)](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=0s)
+11. [Web Dev Simplified; Learn Flexbox in 15 Minutes (2018.9)](https://www.youtube.com/watch?v=fYq5PXgSsbE&t=0s)
+12. [The Net Ninja; HTML & CSS Crash Course Tutorial #9 - Pseudo Classes & Elements (2019)](https://youtu.be/FMu2cKWD90g)
+ 
 
 [^6]: https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-y
 [^7]: [Web Dev Simplified; Learn CSS Position In 9 Minutes (2019.4)](https://youtu.be/jx5jmI0UlXU)
@@ -317,3 +318,4 @@ div::after {
 [^display-1]: https://developer.mozilla.org/en-US/docs/Web/CSS/display
 [^grid-1]: [Web Dev Simplufied; Learn CSS Grid in 20 Minutes (2018.10)](https://youtu.be/9zBsdzdE4sM)
 [^transform-1]: [Web Dev Simplufied; Learn CSS Transform In 15 Minutes (2021.6)](https://youtu.be/rzD-cPhq02E)
+[^ps-1]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
