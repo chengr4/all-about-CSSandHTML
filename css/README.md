@@ -1,6 +1,3 @@
-# All About CSS and HTML
-- [CSS](#css)
-- [HTML](#html)
 # CSS
 
 ## Contents
@@ -321,9 +318,3 @@ div::after {
 [^grid-1]: [Web Dev Simplufied; Learn CSS Grid in 20 Minutes (2018.10)](https://youtu.be/9zBsdzdE4sM)
 [^transform-1]: [Web Dev Simplufied; Learn CSS Transform In 15 Minutes (2021.6)](https://youtu.be/rzD-cPhq02E)
 [^ps-1]: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
-
----
-
-# HTML
-
-## <div>
