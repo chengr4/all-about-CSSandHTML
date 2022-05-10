@@ -1,5 +1,5 @@
 # All about HTML
 
-## <div>
+## div
 
 ## References
