@@ -50,6 +50,7 @@ Props:
 | disableCloseOnSelect | Selecting a value in options will not close the popup |
 | disableClearable | If true, the input in `Textfield` can't be cleared |
 | disableListWrap | Can not loop in options |
+| getOptionSelected |  |
 | includeInputInList | If true, the highlight can move to the input (其他的只能在 options 遊走) |
 | openOnFocus | If true, the popup will open on input focus (I ignore this one) |
 
