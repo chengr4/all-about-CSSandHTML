@@ -1,5 +1,10 @@
 # CSS
 
+## Some Concepts
+
+- 如果重視 SEO 則避免使用有 runtime 的 CSS inJS
+- Zero runtime had better stay with atomic css in order to reduce the size of css
+
 ## Contents
 
 + [Position](#position)
