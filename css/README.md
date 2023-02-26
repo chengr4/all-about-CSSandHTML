@@ -92,6 +92,8 @@ display: unset;
 
 > We got Main Axis and Cross Axis and Main Axis will always go the same direction as the layout
 
+- We use `display: flex` to define the flex container
+
 **For Container:**
 
 ```css
