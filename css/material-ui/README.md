@@ -40,7 +40,8 @@ Props:
 
 ## Autocomplete
 
-- `pptions` and `value` had better be the same type
+- `options` and `value` had better be the same type
+-  
 
 Props:
 
@@ -55,6 +56,7 @@ Props:
 | getOptionSelected |  |
 | includeInputInList | If true, the highlight can move to the input (其他的只能在 options 遊走) |
 | openOnFocus | If true, the popup will open on input focus (I ignore this one) |
+| value | Use only if you need to render it |
 
 ## Tooltip
 
