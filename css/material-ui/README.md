@@ -40,6 +40,8 @@ Props:
 
 ## Autocomplete
 
+- `pptions` and `value` had better be the same type
+
 Props:
 
 | Name | Description |
