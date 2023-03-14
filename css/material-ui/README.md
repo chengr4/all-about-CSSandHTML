@@ -50,6 +50,7 @@ Props:
 | autoComplete | E.g. Input "The" in `TextField`, and in options select "The Apple",  "Apple" will be also appeared in `TextField` |
 | autoSelect | If true, the selected option becomes the value of the input when the Autocomplete loses focus (work with keyboard) |
 | clearOnEscape | Clicking on `esc` can clear `Textfield` (feel not useful) |
+| defaultValue | Use when needing default value but not needing `value` |
 | disableCloseOnSelect | Selecting a value in options will not close the popup |
 | disableClearable | If true, the input in `Textfield` can't be cleared |
 | disableListWrap | Can not loop in options |
